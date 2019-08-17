@@ -33,7 +33,7 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
-    #### Semantic HTML utilizes meaningful, descriptive, element names in place of the more simple presentational titles like <div>.
+    #### Semantic HTML utilizes meaningful, descriptive, element names in place of the more simple presentational titles like `<div>`.
     #### Semantic HTML helps optimize pages for SEO and adaptive technologies.
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
@@ -113,6 +113,6 @@ In your solution, it is essential that you follow best practices and produce cle
 After finishing your required elements, you can push your work further. These goals may or may not be things you have learned in this module but they build on the material you just studied. Time allowing, stretch your limits and see if you can deliver on the following optional goals:
 
 * [ ] Build a page of your choosing from the navigation items.  Come up with content and images that fit the theme.  
-* [ ] Introduce CSS animations to your site.
+* [x] Introduce CSS animations to your site.
 * [ ] Build a contact page and create a form with several inputs of your choosing
 * [ ] Add responsive breakpoints to your code by using media queries
