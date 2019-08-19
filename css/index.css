@@ -102,9 +102,6 @@ p {
 }
 
 .middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -115,7 +112,7 @@ p {
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .bottom-content .text-container {
@@ -142,5 +139,200 @@ footer nav {
 
 footer nav a {
     color: white;
+    font-size: 3.5vh;
+    font-weight: bold;
     text-decoration: none;
+}
+
+/* Start Completely Student Generated Styling */
+
+h2{
+    font-size: 4vmin;
+    font-weight: bolder;
+}
+
+p{
+    font-size: 2.5vmin;
+}
+
+.container{
+    width: 90vw;
+}
+
+.top-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 5vmin 0;
+}
+
+.top-nav img{
+    height: 5%;
+    width: 20%;
+}
+
+.top-nav a{
+    color: black;
+    font-size: 3.5vh;
+    font-weight: bold;
+    text-decoration: none;
+    padding-right: 3%;
+}
+
+.top-nav a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.speed-img{
+    width: 100%;
+    margin-bottom: 3vmin;
+}
+
+.top-content{
+    display: flex;
+    justify-content: space-around;
+}
+
+.text-container{
+    font-weight: bold;
+}
+
+.middle-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.middle-content h2{
+    margin-left: 2.5%;
+}
+
+.boxes{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box{
+    width: 12vw;
+    height: 12vw;
+}
+
+.bottom-content .text-container{
+    flex-basis: 33%;
+}
+
+.bottom-content .text-container p{
+    font-size: 2.75vh;
+    line-height: 1.5em;
+}
+
+
+/* About Page */
+
+.about-page h2{
+    font-weight: 600;
+}
+
+.about-page p{
+    font-size: 3.6vh;
+    font-weight: 550;
+    line-height: 1.5em;
+    margin-bottom: 1%;
+}
+
+.about-top{
+    display: flex;
+    flex-flow: column wrap;
+    border-bottom: 2px black dashed;
+}
+
+.about-info{
+    margin: 1% 2.5%;
+}
+
+.detail-box-area{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.detail-box{
+    flex-basis: 45%;
+    margin: 2.5% 0;
+    padding-bottom: 2%;
+    border-bottom: 2px black dashed;
+}
+
+.detail-box img{
+    width: 100%;
+    margin-bottom: 1.75%;
+}
+
+.detail-box button{
+    width: 28%;
+    padding: 2.5%;
+    background: white;
+    color: black;
+    font-size: 3vh;
+    font-weight: bold;
+    border: 3px black solid;
+    border-radius: 8px;
+    border-image-outset: none;
+}
+
+.work-together{
+    display: flex;
+    flex-flow: column wrap;
+    margin: 1% 3%;
+}
+
+/* Stretch Goal 2 */
+
+@keyframes shift{
+	0%{
+        text-shadow: 10px -8px 0px lightgray;
+        color: black;
+	}
+	12.5%{
+        text-shadow: 5px -8px 1px lightgray;
+        color: red;
+	}
+	25%{
+        text-shadow: 0px -8px 2px lightgray;
+        color: orange;
+	}
+	37.5%{
+        text-shadow: -5px -5px 3px lightgray;
+        color: yellow
+	}
+	50%{
+        text-shadow: -12px 2px 4px lightgray;
+        color: yellowgreen
+	}
+	62.5%{
+        text-shadow: -5px 5px 4px lightgray;
+        color: forestgreen
+	}
+	75%{
+        text-shadow: 3px 6px 4px lightgray;
+        color:violet;
+        
+	}
+	87.5%{
+        text-shadow: 6px 4px 4px lightgray;
+        color: indigo;
+	}
+	100%{
+        text-shadow: 10px -4px 4px lightgray;
+        color: blue;
+	}
+}
+
+.about-info h2{
+	text-shadow: 3px 6px 0px lightgray;
+	animation-name: shift;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
 }
